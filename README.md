@@ -74,6 +74,19 @@ La aplicación está diseñada para ofrecer una plataforma donde los candidatos 
 - **Base de Datos Local:** Room
 - **Inyección de Dependencias:** Hilt
 
+## Arquitectura MVVM del Proyecto
+El proyecto sigue la arquitectura MVVM (Model-View-ViewModel). A continuación se muestra la estructura de carpetas y archivos:
+
+├── models
+├── navigation
+├── room
+├── states
+├── ui
+├── viewmodels
+└── views
+
+**MainActivity.kt**: Archivo principal donde se inicia la actividad de la aplicación.
+
 ## Instalación y Configuración
 
 1. **Clonar el repositorio:**
@@ -98,3 +111,6 @@ Las contribuciones al proyecto son bienvenidas. Por favor, sigue los siguientes 
 ## Licencia
 
 Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+## imagenes
+![img.png](img.png)
